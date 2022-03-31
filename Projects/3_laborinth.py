@@ -44,3 +44,5 @@ print("Next free position is:", next_free_position)
 
 next_free_position = get_next_free_position(next_free_position[0], next_free_position[1])
 print("Next free position is:", next_free_position)
+
+#2
