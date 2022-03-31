@@ -1,3 +1,8 @@
+from tkinter import W
+
+import jmespath
+
+
 map = [
     [5, 0, 1, 0, 1],
     [1, 1, 1, 0, 1],
@@ -35,4 +40,3 @@ print("Next free position is:", next_free_position)
 while next_free_position:
     print("Next free position is:", next_free_position)
     next_free_position = get_next_free_position(next_free_position[0], next_free_position[1])
-
