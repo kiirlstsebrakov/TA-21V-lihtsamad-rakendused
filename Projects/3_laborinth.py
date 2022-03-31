@@ -20,3 +20,6 @@ def get_next_free_position(current_pos_y, current_pos_x):
 
 next_free_position = get_next_free_position(start_pos_y, start_pos_x)
 print("Next free position is:", next_free_position)
+
+next_free_position = get_next_free_position(next_free_position[0], next_free_position[1])
+print("Next free position is:", next_free_position)
