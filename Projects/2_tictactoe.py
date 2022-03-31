@@ -112,40 +112,40 @@ if next_position == "3":
         print(". . .")
         print(". . .")
 
-    if next_position == "2":
+    elif next_position == "2":
         print(". O X")
         print(". . .")
         print(". . .")
 
-    if next_position == "3":
+    elif next_position == "3":
         print("Unable to move here")
 
-    if next_position == "4":
+    elif next_position == "4":
         print(". . X")
         print("O . .")
         print(". . .")
 
-    if next_position == "5":
+    elif next_position == "5":
         print(". . X")
         print(". O .")
         print(". . .")
 
-    if next_position == "6":
+    elif next_position == "6":
         print(". . X")
         print(". . O")
         print(". . .")
 
-    if next_position == "7":
+    elif next_position == "7":
         print(". . X")
         print(". . .")
         print("O . .")
 
-    if next_position == "8":
+    elif next_position == "8":
         print(". . X")
         print(". . .")
         print(". O .")
     
-    if next_position == "9":
+    elif next_position == "9":
         print(". . X")
         print(". . .")
         print(". . O")
@@ -162,67 +162,290 @@ if next_position == "4":
         print("X . .")
         print(". . .")
 
-    if next_position == "2":
-        print("O . .")
+    elif next_position == "2":
+        print(". O .")
         print("X . .")
         print(". . .")
 
-    if next_position == "3":
-        print("O . .")
+    elif next_position == "3":
+        print(". . O")
         print("X . .")
         print(". . .")
 
-    if next_position == "4":
-        print("O . .")
-        print("X . .")
+    elif next_position == "4":
+        print("Unable to move here")
+
+    elif next_position == "5":
+        print(". . .")
+        print("X O .")
         print(". . .")
 
-    if next_position == "5":
-        print("O . .")
-        print("X . .")
+    elif next_position == "6":
+        print(". . .")
+        print("X . O")
         print(". . .")
 
-    if next_position == "6":
-        print("O . .")
-        print("X . .")
+    elif next_position == "7":
         print(". . .")
+        print("X . .")
+        print("O . .")
 
-    if next_position == "7":
-        print("O . .")
-        print("X . .")
+    elif next_position == "8":
         print(". . .")
+        print("X . .")
+        print(". O .")
 
-    if next_position == "8":
-        print("O . .")
-        print("X . .")
+    elif next_position == "9":
         print(". . .")
-
-    if next_position == "9":
-        print("O . .")
         print("X . .")
-        print(". . .")
+        print(". . O")
 
 if next_position == "5":
     print(". . .")
     print(". X .")
     print(". . .")
 
+    next_position = input("Please pick a position: ")
+
+    if next_position == "1":
+        print("O . .")
+        print(". X .")
+        print(". . .")
+
+    elif next_position == "2":
+        print(". O .")
+        print(". X .")
+        print(". . .")
+
+    elif next_position == "3":
+        print(". . O")
+        print(". X .")
+        print(". . .")
+
+    elif next_position == "4":
+        print(". . .")
+        print("O X .")
+        print(". . .")
+
+    elif next_position == "5":
+        print("Unable to move here")
+
+    elif next_position == "6":
+        print(". . .")
+        print(". X O")
+        print(". . .")
+
+    elif next_position == "7":
+        print(". . .")
+        print(". X .")
+        print("O . .")
+
+    elif next_position == "8":
+        print(". . .")
+        print(". X .")
+        print(". O .")
+
+    elif next_position == "9":
+        print(". . .")
+        print(". X .")
+        print(". . O")
+
 if next_position == "6":
     print(". . .")
     print(". . X")
     print(". . .")
+
+    next_position = input("Please pick a position: ")
+
+    if next_position == "1":
+        print("O . .")
+        print(". . X")
+        print(". . .")
+
+    elif next_position == "2":
+        print(". O .")
+        print(". . X")
+        print(". . .")
+
+    elif next_position == "3":
+        print(". . O")
+        print(". . X")
+        print(". . .")
+
+    elif next_position == "4":
+        print(". . .")
+        print("O . X")
+        print(". . .")
+
+    elif next_position == "5":
+        print(". . .")
+        print(". O X")
+        print(". . .")
+
+    elif next_position == "6":
+        print("Unable to move here")
+
+    elif next_position == "7":
+        print(". . .")
+        print(". . X")
+        print("O . .")
+
+    elif next_position == "8":
+        print(". . .")
+        print(". . X")
+        print(". O .")
+
+    elif next_position == "9":
+        print(". . .")
+        print(". . X")
+        print(". . O")
 
 if next_position == "7":
     print(". . .")
     print(". . .")
     print("X . .")
 
+    next_position = input("Please pick a position: ")
+
+    if next_position == "1":
+        print("O . .")
+        print(". . .")
+        print("X . .")
+
+    elif next_position == "2":
+        print(". O .")
+        print(". . .")
+        print("X . .")
+
+    elif next_position == "3":
+        print(". . O")
+        print(". . .")
+        print("X . .")
+
+    elif next_position == "4":
+        print(". . .")
+        print("O . .")
+        print("X . .")
+
+    elif next_position == "5":
+        print(". . .")
+        print(". O .")
+        print("X . .")
+
+    elif next_position == "6":
+        print(". . .")
+        print(". . O")
+        print("X . .")
+
+    elif next_position == "7":
+        print("Unable to move here")
+
+    elif next_position == "8":
+        print(". . .")
+        print(". . .")
+        print("X O .")
+
+    elif next_position == "9":
+        print(". . .")
+        print(". . .")
+        print("X . O")
+
 if next_position == "8":
     print(". . .")
     print(". . .")
     print(". X .")
 
+    next_position = input("Please pick a position: ")
+
+    if next_position == "1":
+        print("O . .")
+        print(". . .")
+        print(". X .")
+
+    elif next_position == "2":
+        print(". O .")
+        print(". . .")
+        print(". X .")
+
+    elif next_position == "3":
+        print(". . O")
+        print(". . .")
+        print(". X .")
+
+    elif next_position == "4":
+        print(". . .")
+        print("O . .")
+        print(". X .")
+
+    elif next_position == "5":
+        print(". . .")
+        print(". O .")
+        print(". X .")
+
+    elif next_position == "6":
+        print(". . .")
+        print(". . O")
+        print(". X .")
+
+    elif next_position == "7":
+        print(". . .")
+        print(". . .")
+        print("O X .")
+
+    elif next_position == "8":
+        print("Unable to move here")
+
+    elif next_position == "9":
+        print(". . .")
+        print(". . .")
+        print(". X O")
+
 if next_position == "9":
     print(". . .")
     print(". . .")
     print(". . X")
+
+    next_position = input("Please pick a position: ")
+
+    if next_position == "1":
+        print("O . .")
+        print(". . .")
+        print(". . X")
+
+    elif next_position == "2":
+        print(". O .")
+        print(". . .")
+        print(". . X")
+
+    elif next_position == "3":
+        print(". . O")
+        print(". . .")
+        print(". . X")
+
+    elif next_position == "4":
+        print(". . .")
+        print("O . .")
+        print(". . X")
+
+    elif next_position == "5":
+        print(". . .")
+        print(". O .")
+        print(". . X")
+
+    elif next_position == "6":
+        print(". . .")
+        print(". . O")
+        print(". . X")
+
+    elif next_position == "7":
+        print(". . .")
+        print(". . .")
+        print("O . X")
+
+    elif next_position == "8":
+        print(". . .")
+        print(". . .")
+        print(". O X")
+
+    elif next_position == "9":
+        print("Unable to move here")
