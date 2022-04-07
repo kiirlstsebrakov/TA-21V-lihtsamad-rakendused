@@ -8,9 +8,9 @@ WALL = 0
 map = [
     [START, ROAD, ROAD, ROAD, ROAD],
     [WALL, WALL, WALL, WALL, ROAD],
-    [WALL, WALL, WALL, WALL, ROAD],
-    [WALL, WALL, WALL, WALL, ROAD],
-    [WALL, WALL, WALL, WALL, FINISH]
+    [WALL, FINISH, ROAD, WALL, ROAD],
+    [WALL, WALL, ROAD, WALL, ROAD],
+    [WALL, WALL, ROAD, ROAD, ROAD]
 ]
 
 start_pos_x = 0 
