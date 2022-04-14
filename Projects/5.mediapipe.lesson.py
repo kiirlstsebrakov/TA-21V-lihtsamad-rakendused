@@ -69,6 +69,9 @@ with mp_hands.Hands(
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
     if results.multi_hand_landmarks:
       for hand_landmarks in results.multi_hand_landmarks:
+        print(hand_landmarks.landmark[8])
+        x = hand_landmarks.landmark[8].x * image_width
+        y = hand_landmarks.landmark[8].y * image_height
         mp_drawing.draw_landmarks(
             image,
             hand_landmarks,
