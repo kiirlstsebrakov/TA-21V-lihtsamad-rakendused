@@ -60,7 +60,7 @@ with mp_hands.Hands(
 
     # To improve performance, optionally mark the image as not writeable to
     # pass by reference.
-    image.flags.writeable = False
+    image.flags.writeable = True
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     results = hands.process(image)
 
