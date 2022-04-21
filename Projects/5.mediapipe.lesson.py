@@ -28,16 +28,10 @@ with mp_hands.Hands(
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
     if results.multi_hand_landmarks:
       for hand_landmarks in results.multi_hand_landmarks:
-        print("x: ")
-        print(hand_landmarks.landmark[8].x * 640)
-        print("y: ")
-        print(hand_landmarks.landmark[8].y * 480)
-
         color = (255, 0, 0)
         x = int(hand_landmarks.landmark[8].x * 640)
         y = int(hand_landmarks.landmark[8].y * 480)
         image = cv2.circle(image, (x, y), 10, color, 2)
-
         image = cv2.rectangle(image, (x, y), (x, y + 50), (255, 255, 255), 3)
 
     cv2.imshow('MediaPipe Hands', cv2.flip(image, 1))
