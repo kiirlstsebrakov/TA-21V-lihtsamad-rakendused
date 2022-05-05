@@ -1,8 +1,9 @@
 import random
 
-user_input = input("Pick an option, rock, paper or scissors): ")
+user_input = input("Pick an option, rock, paper or scissors: ")
 can_input = ["rock", "paper", "scissors"]
 computer_input = random.choice(can_input)
+
 print("You chose", user_input, "and computer chose", computer_input)
 
 if user_input == computer_input:
