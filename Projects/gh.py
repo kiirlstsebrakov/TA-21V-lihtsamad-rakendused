@@ -1,36 +1,24 @@
-operation = input("Input +, -, *, /, %, **, // to pick the right calculator: ")
+import random
 
-if operation == "+":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 + number2)
+user_input = input("Enter a choice (rock, paper, scissors): ")
+can_input = ["rock", "paper", "scissors"]
+computer_input = random.choice(can_input)
+print("You chose", user_input, "and computer chose", computer_input)
 
-if operation == "-":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 - number2)
-
-if operation == "*":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 * number2)
-
-if operation == "/":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 / number2)
-
-if operation == "%":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 % number2)
-
-if operation == "**":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 ** number2)
-
-if operation == "//":
-    number1 = int(input("Input the first number: "))
-    number2 = int(input("Input the second number: "))
-    print(number1 // number2)
+if user_input == computer_input:
+    print("Both players selected", user_input, ". It's a tie.")
+elif user_input == "rock":
+    if computer_input == "scissors":
+        print("Rock smashes scissors. You win!")
+    else:
+        print("Paper covers rock. You lose.")
+elif user_input == "paper":
+    if computer_input == "rock":
+        print("Paper covers rock. You win!")
+    else:
+        print("Scissors cuts paper. You lose.")
+elif user_input == "scissors":
+    if computer_input == "paper":
+        print("Scissors cuts paper. You win!")
+    else:
+        print("Rock smashes scissors. You lose.")
